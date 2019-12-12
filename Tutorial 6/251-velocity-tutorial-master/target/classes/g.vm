@@ -1,0 +1,16 @@
+#set($i = $p ) 
+#set($greet0 = 'To')
+$greet0 $name0
+$i.getFirstName() $i.getName()
+$i.getAddress().getNumber() $i.getAddress().getStreet()
+$i.getAddress().getTown()
+
+#set($greet2 = 'Dear')
+$greet2 $name2$i.getFirstName()
+
+#set($greet3 = 'I would like to invite you to a party this Saturday, 8PM at my place.')
+$greet3 $name3
+#set($greet4 = 'Cheers, me')
+$greet4 $name4
+#set($greet5 = '---------------------------------------------------------------- ')
+$greet5 $name5

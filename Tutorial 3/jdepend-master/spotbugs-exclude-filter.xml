@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.0-beta1" sequence="1" timestamp="1569407732012" analysisTimestamp="1569407724077" release="">
+  <Project projectName="jdepend">
+    <Jar>D:\&#36719;&#24037;tutorial\Tutorial 3\jdepend-master\bin</Jar>
+    <AuxClasspathEntry>D:\&#36719;&#24037;tutorial\Tutorial 3\jdepend-master\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\10496\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\10496\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\java eil\eclipse\jre\lib\rt.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\java eil\eclipse\jre\lib\jce.jar</AuxClasspathEntry>
+    <SrcDir>D:\&#36719;&#24037;tutorial\Tutorial 3\jdepend-master\test</SrcDir>
+    <SrcDir>D:\&#36719;&#24037;tutorial\Tutorial 3\jdepend-master\src</SrcDir>
+  </Project>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="jdepend.framework.AbstractParser">
+      <SourceLine classname="jdepend.framework.AbstractParser" sourcefile="AbstractParser.java" sourcepath="jdepend/framework/AbstractParser.java"/>
+    </Class>
+    <Field classname="jdepend.framework.AbstractParser" name="DEBUG" signature="Z" isStatic="true">
+      <SourceLine classname="jdepend.framework.AbstractParser" sourcefile="AbstractParser.java" sourcepath="jdepend/framework/AbstractParser.java"/>
+    </Field>
+    <SourceLine classname="jdepend.framework.AbstractParser" start="19" end="19" startBytecode="1" endBytecode="1" sourcefile="AbstractParser.java" sourcepath="jdepend/framework/AbstractParser.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="jdepend.framework.ClassFileParser">
+      <SourceLine classname="jdepend.framework.ClassFileParser" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ClassFileParser" name="parse" signature="(Ljava/io/InputStream;)Ljdepend/framework/JavaClass;" isStatic="false">
+      <SourceLine classname="jdepend.framework.ClassFileParser" start="104" end="137" startBytecode="0" endBytecode="61" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    </Method>
+    <LocalVariable name="magic" register="2" pc="34" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="jdepend.framework.ClassFileParser" start="110" end="110" startBytecode="33" endBytecode="33" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    <SourceLine classname="jdepend.framework.ClassFileParser" start="110" end="110" startBytecode="33" endBytecode="33" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="magic"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="jdepend.framework.ClassFileParser">
+      <SourceLine classname="jdepend.framework.ClassFileParser" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ClassFileParser" name="parse" signature="(Ljava/io/InputStream;)Ljdepend/framework/JavaClass;" isStatic="false">
+      <SourceLine classname="jdepend.framework.ClassFileParser" start="104" end="137" startBytecode="0" endBytecode="61" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    </Method>
+    <LocalVariable name="majorVersion" register="4" pc="45" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="jdepend.framework.ClassFileParser" start="113" end="113" startBytecode="43" endBytecode="43" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    <SourceLine classname="jdepend.framework.ClassFileParser" start="113" end="113" startBytecode="43" endBytecode="43" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="majorVersion"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="jdepend.framework.ClassFileParser">
+      <SourceLine classname="jdepend.framework.ClassFileParser" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ClassFileParser" name="parse" signature="(Ljava/io/InputStream;)Ljdepend/framework/JavaClass;" isStatic="false">
+      <SourceLine classname="jdepend.framework.ClassFileParser" start="104" end="137" startBytecode="0" endBytecode="61" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    </Method>
+    <LocalVariable name="minorVersion" register="3" pc="39" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="jdepend.framework.ClassFileParser" start="112" end="112" startBytecode="38" endBytecode="38" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    <SourceLine classname="jdepend.framework.ClassFileParser" start="112" end="112" startBytecode="38" endBytecode="38" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="minorVersion"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="jdepend.framework.ClassFileParser">
+      <SourceLine classname="jdepend.framework.ClassFileParser" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ClassFileParser" name="parseNextConstant" signature="()Ljdepend/framework/ClassFileParser$Constant;" isStatic="false">
+      <SourceLine classname="jdepend.framework.ClassFileParser" start="268" end="307" startBytecode="0" endBytecode="592" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <SourceLine classname="jdepend.framework.ClassFileParser" start="286" end="286" startBytecode="160" endBytecode="160" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    <SourceLine classname="jdepend.framework.ClassFileParser" start="286" end="286" startBytecode="160" endBytecode="160" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="jdepend.framework.ClassFileParser">
+      <SourceLine classname="jdepend.framework.ClassFileParser" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ClassFileParser" name="parseNextConstant" signature="()Ljdepend/framework/ClassFileParser$Constant;" isStatic="false">
+      <SourceLine classname="jdepend.framework.ClassFileParser" start="268" end="307" startBytecode="0" endBytecode="592" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    </Method>
+    <Method classname="java.lang.Long" name="&lt;init&gt;" signature="(J)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Long"/>
+    </Method>
+    <Method classname="java.lang.Long" name="valueOf" signature="(J)Ljava/lang/Long;" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Long"/>
+    </Method>
+    <SourceLine classname="jdepend.framework.ClassFileParser" start="292" end="292" startBytecode="214" endBytecode="214" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    <SourceLine classname="jdepend.framework.ClassFileParser" start="292" end="292" startBytecode="214" endBytecode="214" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE" first="1">
+    <Class classname="jdepend.framework.ClassFileParser">
+      <SourceLine classname="jdepend.framework.ClassFileParser" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ClassFileParser" name="addAnnotationElementValueReferences" signature="([BI)I" isStatic="false">
+      <SourceLine classname="jdepend.framework.ClassFileParser" start="436" end="475" startBytecode="0" endBytecode="483" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    </Method>
+    <SourceLine classname="jdepend.framework.ClassFileParser" start="438" end="470" startBytecode="8" endBytecode="238" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    <SourceLine classname="jdepend.framework.ClassFileParser" start="438" end="470" startBytecode="8" endBytecode="238" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="jdepend.framework.ClassFileParser$AttributeInfo">
+      <SourceLine classname="jdepend.framework.ClassFileParser$AttributeInfo" start="673" end="692" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="jdepend.framework.ClassFileParser$Constant">
+      <SourceLine classname="jdepend.framework.ClassFileParser$Constant" start="567" end="616" sourcefile="ClassFileParser.java" sourcepath="jdepend/framework/ClassFileParser.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="jdepend.framework.ClassFileParserTest">
+      <SourceLine classname="jdepend.framework.ClassFileParserTest" sourcefile="ClassFileParserTest.java" sourcepath="jdepend/framework/ClassFileParserTest.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ClassFileParserTest" name="testExampleClassFile2" signature="()V" isStatic="false">
+      <SourceLine classname="jdepend.framework.ClassFileParserTest" start="181" end="182" startBytecode="0" endBytecode="61" sourcefile="ClassFileParserTest.java" sourcepath="jdepend/framework/ClassFileParserTest.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="jdepend.framework.ClassFileParserTest" start="181" end="181" startBytecode="8" endBytecode="8" sourcefile="ClassFileParserTest.java" sourcepath="jdepend/framework/ClassFileParserTest.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="jdepend.framework.ClassFileParserTest" start="182" end="182" startBytecode="15" endBytecode="15" sourcefile="ClassFileParserTest.java" sourcepath="jdepend/framework/ClassFileParserTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="jdepend.framework.ClassFileParserTest">
+      <SourceLine classname="jdepend.framework.ClassFileParserTest" sourcefile="ClassFileParserTest.java" sourcepath="jdepend/framework/ClassFileParserTest.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ClassFileParserTest" name="testExampleClassFileFromTimDrury" signature="()V" isStatic="false">
+      <SourceLine classname="jdepend.framework.ClassFileParserTest" start="177" end="178" startBytecode="0" endBytecode="61" sourcefile="ClassFileParserTest.java" sourcepath="jdepend/framework/ClassFileParserTest.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="jdepend.framework.ClassFileParserTest" start="177" end="177" startBytecode="8" endBytecode="8" sourcefile="ClassFileParserTest.java" sourcepath="jdepend/framework/ClassFileParserTest.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="jdepend.framework.ClassFileParserTest" start="178" end="178" startBytecode="15" endBytecode="15" sourcefile="ClassFileParserTest.java" sourcepath="jdepend/framework/ClassFileParserTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="jdepend.framework.ConstraintTest">
+      <SourceLine classname="jdepend.framework.ConstraintTest" sourcefile="ConstraintTest.java" sourcepath="jdepend/framework/ConstraintTest.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ConstraintTest" name="testMatchFail" signature="()V" isStatic="false">
+      <SourceLine classname="jdepend.framework.ConstraintTest" start="48" end="68" startBytecode="0" endBytecode="58" sourcefile="ConstraintTest.java" sourcepath="jdepend/framework/ConstraintTest.java"/>
+    </Method>
+    <LocalVariable name="expectedC" register="4" pc="30" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="jdepend.framework.ConstraintTest" start="52" end="52" startBytecode="28" endBytecode="28" sourcefile="ConstraintTest.java" sourcepath="jdepend/framework/ConstraintTest.java"/>
+    <SourceLine classname="jdepend.framework.ConstraintTest" start="52" end="52" startBytecode="28" endBytecode="28" sourcefile="ConstraintTest.java" sourcepath="jdepend/framework/ConstraintTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="expectedC"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="jdepend.framework.ExampleConcreteClass">
+      <SourceLine classname="jdepend.framework.ExampleConcreteClass" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ExampleConcreteClass" name="a" signature="()V" isStatic="false">
+      <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="27" end="30" startBytecode="0" endBytecode="7" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    </Method>
+    <LocalVariable name="?" register="1" pc="9" role="LOCAL_VARIABLE_UNKNOWN"/>
+    <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="27" end="27" startBytecode="9" endBytecode="9" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="27" end="27" startBytecode="9" endBytecode="9" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="?"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="jdepend.framework.ExampleConcreteClass">
+      <SourceLine classname="jdepend.framework.ExampleConcreteClass" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ExampleConcreteClass" name="d" signature="()[Ljava/io/File;" isStatic="false">
+      <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="42" end="43" startBytecode="0" endBytecode="5" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    </Method>
+    <LocalVariable name="files" register="1" pc="5" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="42" end="42" startBytecode="4" endBytecode="4" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="42" end="42" startBytecode="4" endBytecode="4" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="files"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="jdepend.framework.ExampleConcreteClass">
+      <SourceLine classname="jdepend.framework.ExampleConcreteClass" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ExampleConcreteClass" name="c" signature="(Ljava/math/BigDecimal;[B)V" isStatic="false">
+      <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="37" end="39" startBytecode="0" endBytecode="57" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    </Method>
+    <LocalVariable name="a" register="3" pc="16" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="37" end="37" startBytecode="15" endBytecode="15" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="37" end="37" startBytecode="15" endBytecode="15" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="a"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="jdepend.framework.ExampleConcreteClass">
+      <SourceLine classname="jdepend.framework.ExampleConcreteClass" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ExampleConcreteClass" name="c" signature="(Ljava/math/BigDecimal;[B)V" isStatic="false">
+      <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="37" end="39" startBytecode="0" endBytecode="57" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    </Method>
+    <LocalVariable name="b" register="4" pc="65" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="38" end="38" startBytecode="63" endBytecode="63" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="38" end="38" startBytecode="63" endBytecode="63" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="b"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_OBJECT" priority="2" rank="17" abbrev="UC" category="STYLE" first="1">
+    <Class classname="jdepend.framework.ExampleConcreteClass">
+      <SourceLine classname="jdepend.framework.ExampleConcreteClass" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ExampleConcreteClass" name="c" signature="(Ljava/math/BigDecimal;[B)V" isStatic="false">
+      <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="37" end="39" startBytecode="0" endBytecode="155" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    </Method>
+    <String value="a"/>
+    <Type descriptor="[I"/>
+    <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="37" end="37" startBytecode="1" endBytecode="1" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_OBJECT" priority="2" rank="17" abbrev="UC" category="STYLE" first="1">
+    <Class classname="jdepend.framework.ExampleConcreteClass">
+      <SourceLine classname="jdepend.framework.ExampleConcreteClass" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ExampleConcreteClass" name="c" signature="(Ljava/math/BigDecimal;[B)V" isStatic="false">
+      <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="37" end="39" startBytecode="0" endBytecode="155" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    </Method>
+    <String value="b"/>
+    <Type descriptor="[[I"/>
+    <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="38" end="38" startBytecode="17" endBytecode="17" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_VOID_METHOD" priority="1" rank="15" abbrev="UC" category="STYLE" first="1">
+    <Class classname="jdepend.framework.ExampleConcreteClass">
+      <SourceLine classname="jdepend.framework.ExampleConcreteClass" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ExampleConcreteClass" name="c" signature="(Ljava/math/BigDecimal;[B)V" isStatic="false">
+      <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="37" end="39" startBytecode="0" endBytecode="155" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    </Method>
+    <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="39" end="39" startBytecode="65" endBytecode="65" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    <SourceLine classname="jdepend.framework.ExampleConcreteClass" start="39" end="39" startBytecode="65" endBytecode="65" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="jdepend.framework.ExampleConcreteClass$ExampleInnerClass">
+      <SourceLine classname="jdepend.framework.ExampleConcreteClass$ExampleInnerClass" start="63" end="63" sourcefile="ExampleConcreteClass.java" sourcepath="jdepend/framework/ExampleConcreteClass.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="jdepend.framework.ExampleTest">
+      <SourceLine classname="jdepend.framework.ExampleTest" sourcefile="ExampleTest.java" sourcepath="jdepend/framework/ExampleTest.java"/>
+    </Class>
+    <Method classname="jdepend.framework.ExampleTest" name="testAllPackagesHaveNoCycles" signature="()V" isStatic="false">
+      <SourceLine classname="jdepend.framework.ExampleTest" start="105" end="108" startBytecode="0" endBytecode="10" sourcefile="ExampleTest.java" sourcepath="jdepend/framework/ExampleTest.java"/>
+    </Method>
+    <LocalVariable name="packages" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="jdepend.framework.ExampleTest" start="105" end="105" startBytecode="7" endBytecode="7" sourcefile="ExampleTest.java" sourcepath="jdepend/framework/ExampleTest.java"/>
+    <SourceLine classname="jdepend.framework.ExampleTest" start="105" end="105" startBytecode="7" endBytecode="7" sourcefile="ExampleTest.java" sourcepath="jdepend/framework/ExampleTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="packages"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE" priority="2" rank="13" abbrev="NP" category="STYLE" first="1">
+    <Class classname="jdepend.framework.FileManager">
+      <SourceLine classname="jdepend.framework.FileManager" sourcefile="FileManager.java" sourcepath="jdepend/framework/FileManager.java"/>
+    </Class>
+    <Method classname="jdepend.framework.FileManager" name="collectFiles" signature="(Ljava/io/File;Ljava/util/Collection;)V" isStatic="false">
+      <SourceLine classname="jdepend.framework.FileManager" start="91" end="109" startBytecode="0" endBytecode="250" sourcefile="FileManager.java" sourcepath="jdepend/framework/FileManager.java"/>
+    </Method>
+    <LocalVariable name="directoryFiles" register="3" pc="80" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="jdepend.framework.FileManager" start="99" end="99" startBytecode="81" endBytecode="81" sourcefile="FileManager.java" sourcepath="jdepend/framework/FileManager.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="jdepend.framework.FileManager" start="97" end="97" startBytecode="17" endBytecode="17" sourcefile="FileManager.java" sourcepath="jdepend/framework/FileManager.java" role="SOURCE_LINE_KNOWN_NULL"/>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="jdepend.framework.JavaClass$ClassComparator">
+      <SourceLine classname="jdepend.framework.JavaClass$ClassComparator" start="86" end="92" sourcefile="JavaClass.java" sourcepath="jdepend/framework/JavaClass.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_EXCEPTION" priority="2" rank="11" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="jdepend.framework.JavaClassBuilder">
+      <SourceLine classname="jdepend.framework.JavaClassBuilder" sourcefile="JavaClassBuilder.java" sourcepath="jdepend/framework/JavaClassBuilder.java"/>
+    </Class>
+    <Method classname="jdepend.framework.JavaClassBuilder" name="buildClasses" signature="(Ljava/util/jar/JarFile;)Ljava/util/Collection;" isStatic="false">
+      <SourceLine classname="jdepend.framework.JavaClassBuilder" start="118" end="135" startBytecode="0" endBytecode="323" sourcefile="JavaClassBuilder.java" sourcepath="jdepend/framework/JavaClassBuilder.java"/>
+    </Method>
+    <LocalVariable name="is" register="5" pc="50" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="jdepend.framework.JavaClassBuilder" start="130" end="130" startBytecode="87" endBytecode="87" sourcefile="JavaClassBuilder.java" sourcepath="jdepend/framework/JavaClassBuilder.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="jdepend.framework.JavaClassBuilder" start="124" end="124" startBytecode="42" endBytecode="42" sourcefile="JavaClassBuilder.java" sourcepath="jdepend/framework/JavaClassBuilder.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="jdepend.framework.JavaClassBuilder" start="126" end="126" startBytecode="52" endBytecode="52" sourcefile="JavaClassBuilder.java" sourcepath="jdepend/framework/JavaClassBuilder.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.DoomedCodeWarningProperty.DOOMED_CODE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.ALWAYS_ON_EXCEPTION_PATH" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.DEREFS_ARE_CLONED" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_BOOLEAN_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="jdepend.framework.PropertyConfigurator">
+      <SourceLine classname="jdepend.framework.PropertyConfigurator" sourcefile="PropertyConfigurator.java" sourcepath="jdepend/framework/PropertyConfigurator.java"/>
+    </Class>
+    <Method classname="jdepend.framework.PropertyConfigurator" name="getAnalyzeInnerClasses" signature="()Z" isStatic="false">
+      <SourceLine classname="jdepend.framework.PropertyConfigurator" start="98" end="104" startBytecode="0" endBytecode="128" sourcefile="PropertyConfigurator.java" sourcepath="jdepend/framework/PropertyConfigurator.java"/>
+    </Method>
+    <SourceLine classname="jdepend.framework.PropertyConfigurator" start="101" end="101" startBytecode="28" endBytecode="28" sourcefile="PropertyConfigurator.java" sourcepath="jdepend/framework/PropertyConfigurator.java"/>
+    <SourceLine classname="jdepend.framework.PropertyConfigurator" start="101" end="101" startBytecode="28" endBytecode="28" sourcefile="PropertyConfigurator.java" sourcepath="jdepend/framework/PropertyConfigurator.java"/>
+  </BugInstance>
+  <BugInstance type="DM_BOXED_PRIMITIVE_FOR_PARSING" priority="1" rank="16" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="jdepend.framework.PropertyConfigurator">
+      <SourceLine classname="jdepend.framework.PropertyConfigurator" sourcefile="PropertyConfigurator.java" sourcepath="jdepend/framework/PropertyConfigurator.java"/>
+    </Class>
+    <Method classname="jdepend.framework.PropertyConfigurator" name="getConfiguredPackages" signature="()Ljava/util/Collection;" isStatic="false">
+      <SourceLine classname="jdepend.framework.PropertyConfigurator" start="81" end="93" startBytecode="0" endBytecode="232" sourcefile="PropertyConfigurator.java" sourcepath="jdepend/framework/PropertyConfigurator.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="intValue" signature="()I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="parseInt" signature="(Ljava/lang/String;)I" isStatic="true" role="SHOULD_CALL"/>
+    <SourceLine classname="jdepend.framework.PropertyConfigurator" start="89" end="89" startBytecode="72" endBytecode="72" sourcefile="PropertyConfigurator.java" sourcepath="jdepend/framework/PropertyConfigurator.java"/>
+    <SourceLine classname="jdepend.framework.PropertyConfigurator" start="89" end="89" startBytecode="72" endBytecode="72" sourcefile="PropertyConfigurator.java" sourcepath="jdepend/framework/PropertyConfigurator.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="jdepend.framework.PropertyConfigurator">
+      <SourceLine classname="jdepend.framework.PropertyConfigurator" sourcefile="PropertyConfigurator.java" sourcepath="jdepend/framework/PropertyConfigurator.java"/>
+    </Class>
+    <Method classname="jdepend.framework.PropertyConfigurator" name="getConfiguredPackages" signature="()Ljava/util/Collection;" isStatic="false">
+      <SourceLine classname="jdepend.framework.PropertyConfigurator" start="81" end="93" startBytecode="0" endBytecode="232" sourcefile="PropertyConfigurator.java" sourcepath="jdepend/framework/PropertyConfigurator.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(Ljava/lang/String;)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <SourceLine classname="jdepend.framework.PropertyConfigurator" start="89" end="89" startBytecode="69" endBytecode="69" sourcefile="PropertyConfigurator.java" sourcepath="jdepend/framework/PropertyConfigurator.java"/>
+    <SourceLine classname="jdepend.framework.PropertyConfigurator" start="89" end="89" startBytecode="69" endBytecode="69" sourcefile="PropertyConfigurator.java" sourcepath="jdepend/framework/PropertyConfigurator.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="jdepend.swingui.AboutDialog">
+      <SourceLine classname="jdepend.swingui.AboutDialog" sourcefile="AboutDialog.java" sourcepath="jdepend/swingui/AboutDialog.java"/>
+    </Class>
+    <Method classname="jdepend.swingui.AboutDialog" name="&lt;init&gt;" signature="(Ljavax/swing/JFrame;)V" isStatic="false">
+      <SourceLine classname="jdepend.swingui.AboutDialog" start="22" end="74" startBytecode="0" endBytecode="166" sourcefile="AboutDialog.java" sourcepath="jdepend/swingui/AboutDialog.java"/>
+    </Method>
+    <LocalVariable name="blankLabel" register="7" pc="192" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="jdepend.swingui.AboutDialog" start="53" end="53" startBytecode="190" endBytecode="190" sourcefile="AboutDialog.java" sourcepath="jdepend/swingui/AboutDialog.java"/>
+    <SourceLine classname="jdepend.swingui.AboutDialog" start="53" end="53" startBytecode="190" endBytecode="190" sourcefile="AboutDialog.java" sourcepath="jdepend/swingui/AboutDialog.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="blankLabel"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="jdepend.swingui.DependTree">
+      <SourceLine classname="jdepend.swingui.DependTree" sourcefile="DependTree.java" sourcepath="jdepend/swingui/DependTree.java"/>
+    </Class>
+    <Method classname="jdepend.swingui.DependTree" name="valueChanged" signature="(Ljavax/swing/event/TreeSelectionEvent;)V" isStatic="false">
+      <SourceLine classname="jdepend.swingui.DependTree" start="87" end="92" startBytecode="0" endBytecode="8" sourcefile="DependTree.java" sourcepath="jdepend/swingui/DependTree.java"/>
+    </Method>
+    <LocalVariable name="?" register="3" pc="13" role="LOCAL_VARIABLE_UNKNOWN"/>
+    <SourceLine classname="jdepend.swingui.DependTree" start="90" end="90" startBytecode="13" endBytecode="13" sourcefile="DependTree.java" sourcepath="jdepend/swingui/DependTree.java"/>
+    <SourceLine classname="jdepend.swingui.DependTree" start="90" end="90" startBytecode="13" endBytecode="13" sourcefile="DependTree.java" sourcepath="jdepend/swingui/DependTree.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="?"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_EXIT" priority="2" rank="16" abbrev="Dm" category="BAD_PRACTICE" first="1">
+    <Class classname="jdepend.swingui.JDepend">
+      <SourceLine classname="jdepend.swingui.JDepend" sourcefile="JDepend.java" sourcepath="jdepend/swingui/JDepend.java"/>
+    </Class>
+    <Method classname="jdepend.swingui.JDepend" name="usage" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="jdepend.swingui.JDepend" start="505" end="516" startBytecode="0" endBytecode="192" sourcefile="JDepend.java" sourcepath="jdepend/swingui/JDepend.java"/>
+    </Method>
+    <SourceLine classname="jdepend.swingui.JDepend" start="515" end="515" startBytecode="82" endBytecode="82" sourcefile="JDepend.java" sourcepath="jdepend/swingui/JDepend.java"/>
+    <SourceLine classname="jdepend.swingui.JDepend" start="515" end="515" startBytecode="82" endBytecode="82" sourcefile="JDepend.java" sourcepath="jdepend/swingui/JDepend.java"/>
+  </BugInstance>
+  <BugInstance type="DM_EXIT" priority="2" rank="16" abbrev="Dm" category="BAD_PRACTICE" first="1">
+    <Class classname="jdepend.swingui.JDepend$ExitAction">
+      <SourceLine classname="jdepend.swingui.JDepend$ExitAction" sourcefile="JDepend.java" sourcepath="jdepend/swingui/JDepend.java"/>
+    </Class>
+    <Method classname="jdepend.swingui.JDepend$ExitAction" name="actionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" isStatic="false">
+      <SourceLine classname="jdepend.swingui.JDepend$ExitAction" start="499" end="501" startBytecode="0" endBytecode="74" sourcefile="JDepend.java" sourcepath="jdepend/swingui/JDepend.java"/>
+    </Method>
+    <SourceLine classname="jdepend.swingui.JDepend$ExitAction" start="500" end="500" startBytecode="11" endBytecode="11" sourcefile="JDepend.java" sourcepath="jdepend/swingui/JDepend.java"/>
+    <SourceLine classname="jdepend.swingui.JDepend$ExitAction" start="500" end="500" startBytecode="11" endBytecode="11" sourcefile="JDepend.java" sourcepath="jdepend/swingui/JDepend.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="jdepend.textui.JDepend">
+      <SourceLine classname="jdepend.textui.JDepend" sourcefile="JDepend.java" sourcepath="jdepend/textui/JDepend.java"/>
+    </Class>
+    <Method classname="jdepend.textui.JDepend" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="jdepend.textui.JDepend" start="33" end="34" startBytecode="0" endBytecode="60" sourcefile="JDepend.java" sourcepath="jdepend/textui/JDepend.java"/>
+    </Method>
+    <Method classname="java.io.PrintWriter" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.PrintWriter"/>
+    </Method>
+    <SourceLine classname="jdepend.textui.JDepend" start="33" end="33" startBytecode="8" endBytecode="8" sourcefile="JDepend.java" sourcepath="jdepend/textui/JDepend.java"/>
+    <SourceLine classname="jdepend.textui.JDepend" start="33" end="33" startBytecode="8" endBytecode="8" sourcefile="JDepend.java" sourcepath="jdepend/textui/JDepend.java"/>
+  </BugInstance>
+  <BugInstance type="DM_EXIT" priority="2" rank="16" abbrev="Dm" category="BAD_PRACTICE" first="1">
+    <Class classname="jdepend.textui.JDepend">
+      <SourceLine classname="jdepend.textui.JDepend" sourcefile="JDepend.java" sourcepath="jdepend/textui/JDepend.java"/>
+    </Class>
+    <Method classname="jdepend.textui.JDepend" name="usage" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="jdepend.textui.JDepend" start="463" end="474" startBytecode="0" endBytecode="202" sourcefile="JDepend.java" sourcepath="jdepend/textui/JDepend.java"/>
+    </Method>
+    <SourceLine classname="jdepend.textui.JDepend" start="473" end="473" startBytecode="88" endBytecode="88" sourcefile="JDepend.java" sourcepath="jdepend/textui/JDepend.java"/>
+    <SourceLine classname="jdepend.textui.JDepend" start="473" end="473" startBytecode="88" endBytecode="88" sourcefile="JDepend.java" sourcepath="jdepend/textui/JDepend.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="jdepend.xmlui.JDepend">
+      <SourceLine classname="jdepend.xmlui.JDepend" sourcefile="JDepend.java" sourcepath="jdepend/xmlui/JDepend.java"/>
+    </Class>
+    <Method classname="jdepend.xmlui.JDepend" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="jdepend.xmlui.JDepend" start="26" end="27" startBytecode="0" endBytecode="60" sourcefile="JDepend.java" sourcepath="jdepend/xmlui/JDepend.java"/>
+    </Method>
+    <Method classname="java.io.PrintWriter" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.PrintWriter"/>
+    </Method>
+    <SourceLine classname="jdepend.xmlui.JDepend" start="26" end="26" startBytecode="8" endBytecode="8" sourcefile="JDepend.java" sourcepath="jdepend/xmlui/JDepend.java"/>
+    <SourceLine classname="jdepend.xmlui.JDepend" start="26" end="26" startBytecode="8" endBytecode="8" sourcefile="JDepend.java" sourcepath="jdepend/xmlui/JDepend.java"/>
+  </BugInstance>
+  <BugInstance type="NM_SAME_SIMPLE_NAME_AS_SUPERCLASS" priority="1" rank="14" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="jdepend.xmlui.JDepend">
+      <SourceLine classname="jdepend.xmlui.JDepend" start="26" end="192" sourcefile="JDepend.java" sourcepath="jdepend/xmlui/JDepend.java"/>
+    </Class>
+    <Class classname="jdepend.textui.JDepend">
+      <SourceLine classname="jdepend.textui.JDepend" sourcefile="JDepend.java" sourcepath="jdepend/textui/JDepend.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 25 Sep 2019 10:23:18 +0800" total_classes="61" referenced_classes="461" total_bugs="35" total_size="3181" num_packages="7" java_version="1.8.0_211" vm_version="25.211-b12" cpu_seconds="47.28" clock_seconds="126.21" peak_mbytes="558.34" alloc_mbytes="1024.00" gc_seconds="0.37" priority_2="27" priority_1="8">
+    <PackageStats package="jdepend.framework" total_bugs="27" total_types="37" total_size="2124" priority_2="23" priority_1="4">
+      <ClassStats class="jdepend.framework.AbstractParser" sourceFile="AbstractParser.java" interface="false" size="33" bugs="1" priority_2="1"/>
+      <ClassStats class="jdepend.framework.AllTests" sourceFile="AllTests.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="jdepend.framework.ClassFileParser" sourceFile="ClassFileParser.java" interface="false" size="365" bugs="6" priority_2="6"/>
+      <ClassStats class="jdepend.framework.ClassFileParser$AttributeInfo" sourceFile="ClassFileParser.java" interface="false" size="20" bugs="1" priority_2="1"/>
+      <ClassStats class="jdepend.framework.ClassFileParser$Constant" sourceFile="ClassFileParser.java" interface="false" size="38" bugs="1" priority_2="1"/>
+      <ClassStats class="jdepend.framework.ClassFileParser$FieldOrMethodInfo" sourceFile="ClassFileParser.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="jdepend.framework.ClassFileParserTest" sourceFile="ClassFileParserTest.java" interface="false" size="112" bugs="2" priority_2="2"/>
+      <ClassStats class="jdepend.framework.CollectAllCyclesTest" sourceFile="CollectAllCyclesTest.java" interface="false" size="130" bugs="0"/>
+      <ClassStats class="jdepend.framework.ComponentTest" sourceFile="ComponentTest.java" interface="false" size="77" bugs="0"/>
+      <ClassStats class="jdepend.framework.ConstraintTest" sourceFile="ConstraintTest.java" interface="false" size="69" bugs="1" priority_2="1"/>
+      <ClassStats class="jdepend.framework.CycleTest" sourceFile="CycleTest.java" interface="false" size="139" bugs="0"/>
+      <ClassStats class="jdepend.framework.DependencyConstraint" sourceFile="DependencyConstraint.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="jdepend.framework.ExampleAbstractClass" sourceFile="ExampleAbstractClass.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="jdepend.framework.ExampleAnnotation" sourceFile="ExampleAnnotation.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="jdepend.framework.ExampleConcreteClass" sourceFile="ExampleConcreteClass.java" interface="false" size="23" bugs="7" priority_2="4" priority_1="3"/>
+      <ClassStats class="jdepend.framework.ExampleConcreteClass$ExampleInnerClass" sourceFile="ExampleConcreteClass.java" interface="false" size="4" bugs="1" priority_2="1"/>
+      <ClassStats class="jdepend.framework.ExampleInterface" sourceFile="ExampleInterface.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="jdepend.framework.ExamplePackageClass" sourceFile="ExampleConcreteClass.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="jdepend.framework.ExampleTest" sourceFile="ExampleTest.java" interface="false" size="76" bugs="1" priority_2="1"/>
+      <ClassStats class="jdepend.framework.FileManager" sourceFile="FileManager.java" interface="false" size="64" bugs="1" priority_2="1"/>
+      <ClassStats class="jdepend.framework.FileManagerTest" sourceFile="FileManagerTest.java" interface="false" size="63" bugs="0"/>
+      <ClassStats class="jdepend.framework.FilterTest" sourceFile="FilterTest.java" interface="false" size="46" bugs="0"/>
+      <ClassStats class="jdepend.framework.JDepend" sourceFile="JDepend.java" interface="false" size="102" bugs="0"/>
+      <ClassStats class="jdepend.framework.JDependTestCase" sourceFile="JDependTestCase.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="jdepend.framework.JarFileParserTest" sourceFile="JarFileParserTest.java" interface="false" size="80" bugs="0"/>
+      <ClassStats class="jdepend.framework.JavaClass" sourceFile="JavaClass.java" interface="false" size="47" bugs="0"/>
+      <ClassStats class="jdepend.framework.JavaClass$ClassComparator" sourceFile="JavaClass.java" interface="false" size="7" bugs="1" priority_2="1"/>
+      <ClassStats class="jdepend.framework.JavaClassBuilder" sourceFile="JavaClassBuilder.java" interface="false" size="60" bugs="1" priority_2="1"/>
+      <ClassStats class="jdepend.framework.JavaClassBuilder$1" sourceFile="JavaClassBuilder.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="jdepend.framework.JavaPackage" sourceFile="JavaPackage.java" interface="false" size="122" bugs="0"/>
+      <ClassStats class="jdepend.framework.MetricTest" sourceFile="MetricTest.java" interface="false" size="96" bugs="0"/>
+      <ClassStats class="jdepend.framework.PackageComparator" sourceFile="PackageComparator.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="jdepend.framework.PackageFilter" sourceFile="PackageFilter.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="jdepend.framework.ParserListener" sourceFile="ParserListener.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="jdepend.framework.ProfilingHarness" sourceFile="ProfilingHarness.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="jdepend.framework.PropertyConfigurator" sourceFile="PropertyConfigurator.java" interface="false" size="60" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="jdepend.framework.PropertyConfiguratorTest" sourceFile="PropertyConfiguratorTest.java" interface="false" size="41" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="jdepend.framework.p1" total_bugs="0" total_types="1" total_size="2">
+      <ClassStats class="jdepend.framework.p1.ExampleInnerAnnotation" sourceFile="ExampleInnerAnnotation.java" interface="true" size="2" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="jdepend.framework.p2" total_bugs="0" total_types="1" total_size="12">
+      <ClassStats class="jdepend.framework.p2.ExampleEnum" sourceFile="ExampleEnum.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="jdepend.framework.p3" total_bugs="0" total_types="1" total_size="10">
+      <ClassStats class="jdepend.framework.p3.ExampleSecondEnum" sourceFile="ExampleSecondEnum.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="jdepend.swingui" total_bugs="4" total_types="19" total_size="587" priority_2="3" priority_1="1">
+      <ClassStats class="jdepend.swingui.AboutDialog" sourceFile="AboutDialog.java" interface="false" size="44" bugs="1" priority_1="1"/>
+      <ClassStats class="jdepend.swingui.AboutDialog$1" sourceFile="AboutDialog.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="jdepend.swingui.AboutDialog$2" sourceFile="AboutDialog.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="jdepend.swingui.AfferentNode" sourceFile="AfferentNode.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="jdepend.swingui.DependTree" sourceFile="DependTree.java" interface="false" size="44" bugs="1" priority_2="1"/>
+      <ClassStats class="jdepend.swingui.DependTreeModel" sourceFile="DependTreeModel.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="jdepend.swingui.EfferentNode" sourceFile="EfferentNode.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="jdepend.swingui.JDepend" sourceFile="JDepend.java" interface="false" size="248" bugs="1" priority_2="1"/>
+      <ClassStats class="jdepend.swingui.JDepend$1" sourceFile="JDepend.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="jdepend.swingui.JDepend$2" sourceFile="JDepend.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="jdepend.swingui.JDepend$3" sourceFile="JDepend.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="jdepend.swingui.JDepend$4" sourceFile="JDepend.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="jdepend.swingui.JDepend$5" sourceFile="JDepend.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="jdepend.swingui.JDepend$6" sourceFile="JDepend.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="jdepend.swingui.JDepend$AboutAction" sourceFile="JDepend.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="jdepend.swingui.JDepend$ExitAction" sourceFile="JDepend.java" interface="false" size="10" bugs="1" priority_2="1"/>
+      <ClassStats class="jdepend.swingui.JDepend$TreeListener" sourceFile="JDepend.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="jdepend.swingui.PackageNode" sourceFile="PackageNode.java" interface="false" size="62" bugs="0"/>
+      <ClassStats class="jdepend.swingui.StatusPanel" sourceFile="StatusPanel.java" interface="false" size="11" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="jdepend.textui" total_bugs="2" total_types="1" total_size="318" priority_2="1" priority_1="1">
+      <ClassStats class="jdepend.textui.JDepend" sourceFile="JDepend.java" interface="false" size="318" bugs="2" priority_2="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="jdepend.xmlui" total_bugs="2" total_types="1" total_size="128" priority_1="2">
+      <ClassStats class="jdepend.xmlui.JDepend" sourceFile="JDepend.java" interface="false" size="128" bugs="2" priority_1="2"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="2344" invocations="1868" avgMicrosecondsPerInvocation="1255" maxMicrosecondsPerInvocation="34001" standardDeviationMicrosecondsPerInvocation="2979"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="787" invocations="2" avgMicrosecondsPerInvocation="393947" maxMicrosecondsPerInvocation="582359" standardDeviationMicrosecondsPerInvocation="188412"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="478" invocations="1863" avgMicrosecondsPerInvocation="256" maxMicrosecondsPerInvocation="47801" standardDeviationMicrosecondsPerInvocation="1525"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="358" invocations="461" avgMicrosecondsPerInvocation="776" maxMicrosecondsPerInvocation="29478" standardDeviationMicrosecondsPerInvocation="2071"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="288" invocations="461" avgMicrosecondsPerInvocation="625" maxMicrosecondsPerInvocation="11750" standardDeviationMicrosecondsPerInvocation="1204"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="226" invocations="1412" avgMicrosecondsPerInvocation="160" maxMicrosecondsPerInvocation="33111" standardDeviationMicrosecondsPerInvocation="919"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="226" invocations="505" avgMicrosecondsPerInvocation="447" maxMicrosecondsPerInvocation="12289" standardDeviationMicrosecondsPerInvocation="1006"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="182" invocations="505" avgMicrosecondsPerInvocation="360" maxMicrosecondsPerInvocation="22410" standardDeviationMicrosecondsPerInvocation="1344"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="176" invocations="514" avgMicrosecondsPerInvocation="344" maxMicrosecondsPerInvocation="8163" standardDeviationMicrosecondsPerInvocation="694"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="173" invocations="517" avgMicrosecondsPerInvocation="335" maxMicrosecondsPerInvocation="14290" standardDeviationMicrosecondsPerInvocation="977"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="170" invocations="505" avgMicrosecondsPerInvocation="338" maxMicrosecondsPerInvocation="6327" standardDeviationMicrosecondsPerInvocation="516"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="157" invocations="505" avgMicrosecondsPerInvocation="312" maxMicrosecondsPerInvocation="7980" standardDeviationMicrosecondsPerInvocation="567"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="144" invocations="431" avgMicrosecondsPerInvocation="334" maxMicrosecondsPerInvocation="30846" standardDeviationMicrosecondsPerInvocation="1565"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="91" invocations="461" avgMicrosecondsPerInvocation="198" maxMicrosecondsPerInvocation="5767" standardDeviationMicrosecondsPerInvocation="428"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="79" invocations="520" avgMicrosecondsPerInvocation="152" maxMicrosecondsPerInvocation="28523" standardDeviationMicrosecondsPerInvocation="1265"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="77" invocations="143" avgMicrosecondsPerInvocation="538" maxMicrosecondsPerInvocation="27133" standardDeviationMicrosecondsPerInvocation="2300"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1569407732009" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
